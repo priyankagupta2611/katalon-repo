@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataDriven TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>47061251-a186-4137-aab6-15ec423a15fd</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>db8e54bd-c0a9-4631-b68e-66d9c6508baa</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/dataTC</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>db8e54bd-c0a9-4631-b68e-66d9c6508baa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>8fc9f59a-e009-4167-9753-7510c3e5620b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>db8e54bd-c0a9-4631-b68e-66d9c6508baa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>a4ced5e9-2f01-489f-b320-02bdad7d6b96</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8fc9f59a-e009-4167-9753-7510c3e5620b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a4ced5e9-2f01-489f-b320-02bdad7d6b96</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

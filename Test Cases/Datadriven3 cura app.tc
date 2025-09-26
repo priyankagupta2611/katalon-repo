@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Datadriven3 cura app</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6799e170-239e-4bd9-bdaf-66b5c9256c94</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>82c31a00-fa4a-4daf-a637-f0e55136a2e8</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/cura app data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>82c31a00-fa4a-4daf-a637-f0e55136a2e8</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>169f54fc-7b19-47f7-8d76-206fac7acc1b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>82c31a00-fa4a-4daf-a637-f0e55136a2e8</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>b3b17d52-c4a9-4a1a-af30-6a0624b898bd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>169f54fc-7b19-47f7-8d76-206fac7acc1b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3b17d52-c4a9-4a1a-af30-6a0624b898bd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

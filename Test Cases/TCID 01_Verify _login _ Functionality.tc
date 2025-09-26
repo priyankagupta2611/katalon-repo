@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>End to End Testing of a web application.</description>
+   <name>TCID 01_Verify _login _ Functionality</name>
+   <tag>@ Functional Testing</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec0a29e4-01f8-42ed-a9e7-61e2d1327cd5</testCaseGuid>
+</TestCaseEntity>

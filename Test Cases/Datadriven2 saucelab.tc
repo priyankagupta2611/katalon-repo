@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Datadriven2 saucelab</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7a8a0a9b-63cf-45c9-8884-aa1422b315c3</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e6f13bfb-190b-47d1-842e-59a064dc9bef</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/saucelab test data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e6f13bfb-190b-47d1-842e-59a064dc9bef</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>53ad1fad-3ee7-42be-a58e-d2a3a54ddb3f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e6f13bfb-190b-47d1-842e-59a064dc9bef</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>c6caa920-4318-48ca-8526-55c4a004d4c1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>53ad1fad-3ee7-42be-a58e-d2a3a54ddb3f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c6caa920-4318-48ca-8526-55c4a004d4c1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

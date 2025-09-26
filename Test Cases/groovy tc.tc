@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>it has all possible scenario</description>
+   <name>groovy tc</name>
+   <tag>@ Smoke testing</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c1736d43-a203-4d65-a622-177a0940c1ba</testCaseGuid>
+</TestCaseEntity>
