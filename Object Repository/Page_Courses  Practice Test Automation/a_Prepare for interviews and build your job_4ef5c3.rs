@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Prepare for interviews and build your job_4ef5c3</name>
+   <tag></tag>
+   <elementGuidId>59f5b83b-47dd-412d-98bf-063e988ffb06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.wp-block-button__link.has-black-color.has-text-color.has-background.wp-element-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loop-container']/div/article/div[2]/div[2]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.wp-block-button__link >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d2428bb3-aada-43bb-82d5-d832ee1f835a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wp-block-button__link has-black-color has-text-color has-background wp-element-button</value>
+      <webElementGuid>ba6c957e-1e34-450a-964c-2bd96c8ff36e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://practicetestautomation.com/beginners-course-coupon</value>
+      <webElementGuid>e5e54594-57bb-40af-8d59-858e5c6e4c30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>78485e05-46af-439b-a0a1-88c71a8f4b26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noreferrer noopener</value>
+      <webElementGuid>6ed15328-095e-4475-ba16-7913df190614</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enroll in this course on Udemy</value>
+      <webElementGuid>e3ec6a98-c656-4af6-9950-bda139d6ad38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loop-container&quot;)/div[@class=&quot;post-9 page type-page status-publish hentry entry&quot;]/article[1]/div[@class=&quot;post-content&quot;]/div[@class=&quot;wp-block-buttons alignfull is-horizontal is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-499968f5 wp-block-buttons-is-layout-flex&quot;]/div[@class=&quot;is-style-fill wp-block-button&quot;]/a[@class=&quot;wp-block-button__link has-black-color has-text-color has-background wp-element-button&quot;]</value>
+      <webElementGuid>679e706b-2901-4f8a-a133-d436b706008f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loop-container']/div/article/div[2]/div[2]/div/a</value>
+      <webElementGuid>6bbbd275-b150-4b45-bea7-7a3ac17a9ca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Enroll in this course on Udemy')]</value>
+      <webElementGuid>52be9b9d-1e22-451e-9387-e2c2184d81d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prepare for interviews and build your job-ready portfolio'])[1]/following::a[1]</value>
+      <webElementGuid>8677aca9-0134-4971-848b-64550a2de907</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn Java programming essentials tailored for test automation'])[1]/following::a[1]</value>
+      <webElementGuid>12d89681-0688-40d9-8286-34333804dac0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selenium WebDriver: Selenium Automation Testing with Python'])[1]/preceding::a[1]</value>
+      <webElementGuid>01f9ee6f-b5ca-4eff-856b-c576da633b01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What you’ll learn in this course:'])[2]/preceding::a[2]</value>
+      <webElementGuid>fb1dd370-3d73-475a-ba78-61b45cf7ddcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enroll in this course on Udemy']/parent::*</value>
+      <webElementGuid>9bc83683-d8eb-4217-89aa-4532d54e9a09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://practicetestautomation.com/beginners-course-coupon')])[2]</value>
+      <webElementGuid>a0c3cd06-ca91-451a-8cd3-03521ef498bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>6e649287-0a2a-436a-93c8-341186814a2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://practicetestautomation.com/beginners-course-coupon' and (text() = 'Enroll in this course on Udemy' or . = 'Enroll in this course on Udemy')]</value>
+      <webElementGuid>781ad53e-0770-4f3e-ae3b-9f832ae81ed5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Day3B click on contact</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>62660c21-1f0f-4e2f-b225-23c8c3e36c89</testCaseGuid>
+</TestCaseEntity>

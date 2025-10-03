@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Arifacts Creation 3</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cac348ce-1ef0-4faf-b0e8-af951705e979</testCaseGuid>
+</TestCaseEntity>

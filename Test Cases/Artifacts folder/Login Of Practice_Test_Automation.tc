@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Of Practice_Test_Automation</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7cd61301-ddb7-4033-a7ec-fe7b5d7fba1b</testCaseGuid>
+</TestCaseEntity>

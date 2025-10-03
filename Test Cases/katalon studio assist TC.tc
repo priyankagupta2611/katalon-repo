@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>katalon studio assist TC</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>926f952a-bad9-4e2a-a89a-1257f48a9a2a</testCaseGuid>
+</TestCaseEntity>

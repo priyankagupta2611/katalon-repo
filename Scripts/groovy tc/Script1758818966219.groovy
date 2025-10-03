@@ -43,6 +43,16 @@ String[][] negativeLoginData = [
 	["", ""],
 	["standard_user", ""],
 	["", "secret_sauce"]
+/*
+*  Define an array of username and password pairs representing negative login test cases
+*
+*  1. Include invalid username with valid password
+*  2. Include valid username with incorrect password
+*  3. Include empty username and empty password
+*  4. Include valid username with empty password
+*  5. Include empty username with valid password
+*
+*/
 ]
 
 for (def data : negativeLoginData) {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite one</name>
+   <name>Test Suite two</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>fa02d82c-f4c0-4106-89a9-38d378af3201</testSuiteGuid>
+   <testSuiteGuid>b29ae11c-7e55-41e4-8ea0-7ff4e18c805e</testSuiteGuid>
    <testCaseLink>
-      <guid>7e569264-701e-4e58-8dcf-5f5fde2a4cf8</guid>
+      <guid>e97f1688-9994-4efc-b5c4-f00134fa1c41</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Testing on automation page/TCID 01_Verify _login _ Functionality</testCaseId>
+      <testCaseId>Test Cases/Action on web</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fe529e4-80ee-4792-8e03-048e3f0409ac</guid>
+      <guid>3d68f358-2868-47f4-98c6-5a01f8c69a0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Functional TC</testCaseId>
+      <testCaseId>Test Cases/katalon studio assist TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

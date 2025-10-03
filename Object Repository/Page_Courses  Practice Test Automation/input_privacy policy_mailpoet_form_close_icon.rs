@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>input_privacy policy_mailpoet_form_close_icon</name>
    <tag></tag>
-   <elementGuidId>842beacf-9f18-471d-b72f-de6e6dbce11f</elementGuidId>
+   <elementGuidId>08f7349c-7949-443e-8821-3926557cc9ac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <key>CSS</key>
+         <value>input.mailpoet_form_close_icon</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@type='image']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Username&quot;i]</value>
+         <value>internal:role=button[name=&quot;Close&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,70 +29,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>db5d2a61-4d16-4c5e-a008-be4c0f1765d6</webElementGuid>
+      <webElementGuid>f5f628e0-b841-4581-b0bd-b04b75e49963</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>image</value>
+      <webElementGuid>bd34faf3-6b15-4429-8e07-0bd1d1a4bca9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-input oxd-input--focus</value>
-      <webElementGuid>3c5808c0-2134-4bb8-867a-b11c7852a8e7</webElementGuid>
+      <value>mailpoet_form_close_icon</value>
+      <webElementGuid>b959b912-5126-4116-8dff-35f8a727d781</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>alt</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>b5e7a75d-e34c-4f98-bdf1-d2f5881980dd</webElementGuid>
+      <value>Close</value>
+      <webElementGuid>e009cae7-cce2-4a41-a8c1-528301e54efa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>src</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>a2492be3-9826-43c1-87a4-a28235b62a1d</webElementGuid>
+      <value>https://practicetestautomation.com/wp-content/plugins/mailpoet/assets/img/form_close_icon/square_black.svg</value>
+      <webElementGuid>61b67a08-f85a-4134-bc80-7ed84fe4d545</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]/div[@class=&quot;orangehrm-login-form&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/input[@class=&quot;oxd-input oxd-input--focus&quot;]</value>
-      <webElementGuid>72b674ee-7beb-4a32-979d-18f6ce864b62</webElementGuid>
+      <value>id(&quot;mp_form_slide_in8&quot;)/input[@class=&quot;mailpoet_form_close_icon&quot;]</value>
+      <webElementGuid>5b28998c-4842-411e-ba2b-9708f165e361</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>817edf52-1c0f-434b-b061-934fa0d0713a</webElementGuid>
+      <value>//input[@type='image']</value>
+      <webElementGuid>e535bcf6-eb6a-4859-8ae5-42c854bada20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div/div/div[2]/input</value>
-      <webElementGuid>cc30dde0-5c3b-4c60-b445-8262f10954c0</webElementGuid>
+      <value>//div[@id='mp_form_slide_in8']/input</value>
+      <webElementGuid>4d59efb1-574a-46a2-b238-ae88a87385e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>351ddc9b-5f3a-46ab-a998-2b50c75c3980</webElementGuid>
+      <value>//div[20]/input</value>
+      <webElementGuid>9f1bc7f9-6648-4a6a-858c-9e3ba01ba3a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>7c3f8b69-e89d-4798-bd04-d898de1ddb1c</webElementGuid>
+      <value>//input[@type = 'image' and @alt = 'Close' and @src = 'https://practicetestautomation.com/wp-content/plugins/mailpoet/assets/img/form_close_icon/square_black.svg']</value>
+      <webElementGuid>061dea24-47f9-4334-96a2-d91662a675bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

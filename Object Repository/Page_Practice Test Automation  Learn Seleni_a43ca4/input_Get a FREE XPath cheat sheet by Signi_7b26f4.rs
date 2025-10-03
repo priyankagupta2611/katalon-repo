@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>input_Get a FREE XPath cheat sheet by Signi_7b26f4</name>
    <tag></tag>
-   <elementGuidId>842beacf-9f18-471d-b72f-de6e6dbce11f</elementGuidId>
+   <elementGuidId>0c1fe1fd-b424-4693-ad29-aaa906a210d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <key>CSS</key>
+         <value>input.mailpoet_submit</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@value='Get XPath cheat sheet']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Username&quot;i]</value>
+         <value>internal:role=button[name=&quot;Get XPath cheat sheet&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,70 +29,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>db5d2a61-4d16-4c5e-a008-be4c0f1765d6</webElementGuid>
+      <webElementGuid>ec2cb784-746e-45c3-aeff-b5dc85e89169</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>82800748-651d-456a-8bb1-9d045df1f604</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-input oxd-input--focus</value>
-      <webElementGuid>3c5808c0-2134-4bb8-867a-b11c7852a8e7</webElementGuid>
+      <value>mailpoet_submit</value>
+      <webElementGuid>8046f1c5-292e-48f7-b917-a9a1d0be5478</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>value</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>b5e7a75d-e34c-4f98-bdf1-d2f5881980dd</webElementGuid>
+      <value>Get XPath cheat sheet</value>
+      <webElementGuid>2581bc10-0572-4b51-9ea2-fa732811cc51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>data-automation-id</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>a2492be3-9826-43c1-87a4-a28235b62a1d</webElementGuid>
+      <value>subscribe-submit-button</value>
+      <webElementGuid>e2ec7eba-3a00-4718-8995-c9ea5c514bf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]/div[@class=&quot;orangehrm-login-form&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/input[@class=&quot;oxd-input oxd-input--focus&quot;]</value>
-      <webElementGuid>72b674ee-7beb-4a32-979d-18f6ce864b62</webElementGuid>
+      <value>id(&quot;mp_form_below_posts7&quot;)/form[@class=&quot;mailpoet_form mailpoet_form_form mailpoet_form_below_posts&quot;]/div[@class=&quot;mailpoet_paragraph&quot;]/input[@class=&quot;mailpoet_submit&quot;]</value>
+      <webElementGuid>877d19d6-8db0-4bea-9c87-74d791d605c5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>817edf52-1c0f-434b-b061-934fa0d0713a</webElementGuid>
+      <value>//input[@value='Get XPath cheat sheet']</value>
+      <webElementGuid>a56e3a5f-3b6e-4657-a4c2-22248eea59b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div/div/div[2]/input</value>
-      <webElementGuid>cc30dde0-5c3b-4c60-b445-8262f10954c0</webElementGuid>
+      <value>//div[@id='mp_form_below_posts7']/form/div[3]/input</value>
+      <webElementGuid>609f1c09-be44-4d52-9c55-82c45e41526f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>351ddc9b-5f3a-46ab-a998-2b50c75c3980</webElementGuid>
+      <value>//div[3]/input</value>
+      <webElementGuid>b6fba82f-ecba-4850-8915-aa2df5e27aab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>7c3f8b69-e89d-4798-bd04-d898de1ddb1c</webElementGuid>
+      <value>//input[@type = 'submit']</value>
+      <webElementGuid>aa938468-a715-4a87-b6ad-da4dab035a04</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

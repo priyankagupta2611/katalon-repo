@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DAY3A artifacts click_on</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b467c34-f979-4c95-ac32-dbd422547a1e</testCaseGuid>
+</TestCaseEntity>

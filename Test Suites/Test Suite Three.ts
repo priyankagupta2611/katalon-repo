@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite one</name>
+   <name>Test Suite Three</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>fa02d82c-f4c0-4106-89a9-38d378af3201</testSuiteGuid>
+   <testSuiteGuid>e0412d3d-3fe9-4e49-bf94-5677d5df5863</testSuiteGuid>
    <testCaseLink>
-      <guid>7e569264-701e-4e58-8dcf-5f5fde2a4cf8</guid>
+      <guid>92c3cb0c-6bc4-4e8a-ab16-6d4112dfd516</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Testing on automation page/TCID 01_Verify _login _ Functionality</testCaseId>
+      <testCaseId>Test Cases/Testing on automation page/TCID_09</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fe529e4-80ee-4792-8e03-048e3f0409ac</guid>
+      <guid>57824b5f-2262-45cc-8c4a-9b195b8ed718</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Functional TC</testCaseId>
+      <testCaseId>Test Cases/Testing on automation page/TCID_10</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

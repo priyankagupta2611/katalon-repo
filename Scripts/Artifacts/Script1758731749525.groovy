@@ -38,12 +38,24 @@ WebUI.click(findTestObject('Object Repository/page the internet/Page_The Interne
 // Step 3: Verify Secure Area
 WebUI.verifyElementText(findTestObject('Object Repository/page the internet/Page_The Internet/h2'), 'Secure Area')
 
+/*
+*  Verify that the text of a specific web element matches the expected value "Secure Area"
+*
+*  1. Locate the web element using the test object identified by 'Object Repository/page the internet/Page_The Internet/h2'.
+*  2. Check that the text content of this element exactly equals the string "Secure Area".
+*/
 WebUI.comment('Valid login successful')
 
 WebUI.delay(2)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/page the internet/Page_The Internet/a_Welcome to the Secure Area. When you are _85f6bb'))
 
+/*
+*  Verify that a specific web element is visible on the web page
+*
+*  1. Locate the web element using the test object identified by 'Object Repository/page the internet/Page_The Internet/a_Welcome to the Secure Area. When you are _85f6bb'.
+*  2. Check that this element is currently visible to the user on the page.
+*/
 WebUI.delay(2)
 
 WebUI.delay(2)
@@ -55,12 +67,4 @@ WebUI.click(findTestObject('Object Repository/page the internet/Page_The Interne
 WebUI.click(findTestObject('Object Repository/page the internet/Page_The Internet/h4_Login Page_subheader'))
 
 WebUI.setText(findTestObject('Object Repository/page the internet/Page_The Internet/input_Username_username'), 'wrongsmith')
-
-WebUI.click(findTestObject('Object Repository/page the internet/Page_The Internet/h4_Login Page_subheader'))
-
-WebUI.setText(findTestObject('Object Repository/page the internet/Page_The Internet/input_Password_password'), 'SecretPassword!')
-
-WebUI.click(findTestObject('Object Repository/page the internet/Page_The Internet/i_Password_fa fa-2x fa-sign-in'))
-
-WebUI.comment('inValid login successful')
 

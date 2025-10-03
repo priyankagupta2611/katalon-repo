@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Artifacts creation 5</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>babd047a-cf0c-4d7d-9684-ab6c1a35c693</testCaseGuid>
+</TestCaseEntity>
