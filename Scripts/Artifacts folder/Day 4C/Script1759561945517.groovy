@@ -17,27 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//* Write a Katalon Studio test case to perform the following steps
-/* 1. open browser to the URL stored in https://practicetestautomation.com/practice-test-login/
- 2.Verify element text present PRACTICE
- 3.Click on PRACTICE
- 4. Click on Test Login Page
- 5.Click on Username type student
- 6.Click on Password type Password123
- 7.click on Submit button
- 8.Close the browser.*/
+WebUI.callTestCase(findTestCase('Artifacts folder/Day 4B'), [:], FailureHandling.STOP_ON_FAILURE)
+//* Write a Katalon Studio test case to perform the following steps.
+ //1.. tick a Check box of Apply For hospital readmission
+//2. Click on Visit Date select 25/10/2025 day by calender(not happening)
+//3. Click on Comment type Emergency
+//4.Click on Book Appointment 
+// Tick the checkbox of Apply For hospital readmission
 
-// Open browser to the URL stored in https://practicetestautomation.com/practice-test-login/
-WebUI.openBrowser('https://practicetestautomation.com/practice-test-login/')
-
-// Verify element text present PRACTICE
-WebUI.verifyTextPresent('PRACTICE', false)
-// verify text present PRACTICE
-
-WebUI.click(findTestObject('Object Repository/artifacts objects/Page_Test Login  Practice Test Automation/a blog'))
-// Click on blog Page
-WebUI.click(findTestObject('Object Repository/artifacts objects/Page_Test Login  Practice Test Automation/a courses'))
-// Click on Courses
-
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_chk_box'))
+// Click on Visit Date to open the calendar
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)'))
+// Set the Visit Date to 25/10/2025 by sending keys directly to the input field
+//WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)'), '25/10/2025')
+// Click on Comment textarea and type Emergency
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_comment'), 'Emergency')
+// Click on Book Appointment button
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_We Care About Your Health_btn-make-appointment'))

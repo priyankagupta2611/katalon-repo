@@ -17,27 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//* Write a Katalon Studio test case to perform the following steps
-/* 1. open browser to the URL stored in https://practicetestautomation.com/practice-test-login/
- 2.Verify element text present PRACTICE
- 3.Click on PRACTICE
- 4. Click on Test Login Page
- 5.Click on Username type student
- 6.Click on Password type Password123
- 7.click on Submit button
- 8.Close the browser.*/
+//* Write a Katalon Studio test case to perform the following steps.
+ //1. open browser to the URL stored in https://practicetestautomation.com/practice-test-exceptions/
+// 2.Click Add button
+// Open browser to the specified URL
+WebUI.openBrowser('https://practicetestautomation.com/practice-test-exceptions/')
 
-// Open browser to the URL stored in https://practicetestautomation.com/practice-test-login/
-WebUI.openBrowser('https://practicetestautomation.com/practice-test-login/')
-
-// Verify element text present PRACTICE
-WebUI.verifyTextPresent('PRACTICE', false)
-// verify text present PRACTICE
-
-WebUI.click(findTestObject('Object Repository/artifacts objects/Page_Test Login  Practice Test Automation/a blog'))
-// Click on blog Page
-WebUI.click(findTestObject('Object Repository/artifacts objects/Page_Test Login  Practice Test Automation/a courses'))
-// Click on Courses
-
-
-WebUI.closeBrowser()
+// Click the Add buttonfindTestObject('Object Repository/exception/Page_Test Exceptions  Practice Test Automation/button_Save_add_btn')
+WebUI.click(findTestObject('Object Repository/exception/Page_Test Exceptions  Practice Test Automation/button_Save_add_btn'))

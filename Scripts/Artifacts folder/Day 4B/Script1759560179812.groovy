@@ -16,28 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+//* Write a Katalon Studio test case to perform the following steps.
+ /*1. click on Facility drop down select seoul CURA Healthcare Center
+ 2. tick a Check box of Apply For hospital readmission*/
 
-//* Write a Katalon Studio test case to perform the following steps
-/* 1. open browser to the URL stored in https://practicetestautomation.com/practice-test-login/
- 2.Verify element text present PRACTICE
- 3.Click on PRACTICE
- 4. Click on Test Login Page
- 5.Click on Username type student
- 6.Click on Password type Password123
- 7.click on Submit button
- 8.Close the browser.*/
+WebUI.callTestCase(findTestCase('Artifacts folder/Day 4A'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// Open browser to the URL stored in https://practicetestautomation.com/practice-test-login/
-WebUI.openBrowser('https://practicetestautomation.com/practice-test-login/')
-
-// Verify element text present PRACTICE
-WebUI.verifyTextPresent('PRACTICE', false)
-// verify text present PRACTICE
-
-WebUI.click(findTestObject('Object Repository/artifacts objects/Page_Test Login  Practice Test Automation/a blog'))
-// Click on blog Page
-WebUI.click(findTestObject('Object Repository/artifacts objects/Page_Test Login  Practice Test Automation/a courses'))
-// Click on Courses
-
-
-WebUI.closeBrowser()
+ WebUI.delay(5, FailureHandling.STOP_ON_FAILURE) 
+ 
+// Click on Facility drop down
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Facility_combo_facility'))
+// Select 'Seoul CURA Healthcare Center' option from Facility drop down
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Facility_combo_facility'), 'Seoul CURA Healthcare Center', false)
+// Tick the checkbox of Apply For hospital readmission
+WebUI.check(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Medicare_radio_program_medicare'))

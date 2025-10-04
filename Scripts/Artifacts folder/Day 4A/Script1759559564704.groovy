@@ -17,27 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//* Write a Katalon Studio test case to perform the following steps
-/* 1. open browser to the URL stored in https://practicetestautomation.com/practice-test-login/
- 2.Verify element text present PRACTICE
- 3.Click on PRACTICE
- 4. Click on Test Login Page
- 5.Click on Username type student
- 6.Click on Password type Password123
- 7.click on Submit button
- 8.Close the browser.*/
+// Import necessary packages
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-// Open browser to the URL stored in https://practicetestautomation.com/practice-test-login/
-WebUI.openBrowser('https://practicetestautomation.com/practice-test-login/')
+// Open browser to the specified URL
+WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 
-// Verify element text present PRACTICE
-WebUI.verifyTextPresent('PRACTICE', false)
-// verify text present PRACTICE
+// Verify element text present
+WebUI.verifyTextPresent('Make Appointment', false)
 
-WebUI.click(findTestObject('Object Repository/artifacts objects/Page_Test Login  Practice Test Automation/a blog'))
-// Click on blog Page
-WebUI.click(findTestObject('Object Repository/artifacts objects/Page_Test Login  Practice Test Automation/a courses'))
-// Click on Courses
+// Click on Make Appointment
+WebUI.click(findTestObject('Page_CURA Healthcare Service/a_We Care About Your Health_btn-make-appointment'))
 
+// Click on Username and type JohnDoe
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_txt-username'), 'John Doe')
 
-WebUI.closeBrowser()
+// Click on Password and type ThisIsNotAPassword
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Password_txt-password'), 'ThisIsNotAPassword')
+
+// Click on Login button
+WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Password_btn-login'))
+
